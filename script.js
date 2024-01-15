@@ -6,6 +6,8 @@ function display(e) {
     let pressKey = e.key;
     let keyCode = e.keyCode
     headingOne.innerText = `You pressed ${pressKey}`;
+
+    // headingOne.style.border = "solid 2px red";
     headingTwo.innerText = `keyCode ${keyCode}`;
 
     // headingOne.style.backgroundColor = "";
