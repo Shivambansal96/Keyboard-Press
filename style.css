@@ -11,38 +11,41 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 2px red;  
+    /* border: solid 2px red;   */
+    gap: 1rem;
 }
 
 h1 {
-    background-color: gray;
-    color: ;
+    /* background-color: gray; */
+    color: blue;
     text-align: center;
 }
 
 h2 {
-    background-color: red;
-    border: solid 2px red;
+    /* background-color: red; */
+    color: white;
+
 }
 
 #pressedNumber {
+    background-color: black;
     height: 10%;
     width: 50%;
 
     padding: 20px;
     text-align: center;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 #keyCodes {
+    background-color: black;
     height: 10%;
     width: 50%;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     text-align: center;
     padding: 20px;
 }
 
-/* span {
-    color: red;
-    background-color: red;
-} */
+span {
+    color: gray;
+}
